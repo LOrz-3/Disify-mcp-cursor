@@ -1,7 +1,7 @@
 # RealPostman MCP Server
 
 一个基于 Disify API 的 Model Context Protocol (MCP) 服务器，提供邮箱格式、DNS、MX、垃圾邮件嫌疑与临时邮箱检测等三种工具：`check-email`、`check-email-batch`、`view-valid-emails`。可在 Cursor、Claude Desktop 等支持 MCP 的客户端中使用，也可通过脚本直接调用。
-
+在AIIDE中添加mcp可以判断邮箱的有效情况，结合officemcp之类的功能可能会有不小的帮助 好的，以下全是claude自己生成的，我无法判断是否严谨；我会在readme的末尾给出我的建议，先看看最后的建议好吗[doge玫瑰] 验证和确认单个邮箱地址。检查邮箱地址是否为一次性使用、临时性、MX 记录无效、是否拼写错误、是否不活跃或不存在。
 ## 功能亮点
 
 - ✅ **单个邮箱检测**：验证格式、域名、DNS、MX、垃圾邮件嫌疑以及是否临时邮箱。
